@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantListActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List of Restaurants"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_30sdp"
+            android:textColor="@color/colorPrimaryDark"></TextView>
+    </LinearLayout>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/lv_restaurant"></ListView>
+</LinearLayout>
